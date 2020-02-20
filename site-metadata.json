@@ -1,11 +1,11 @@
 {
-    "title": "Stackbit Fresh Theme",
+    "title": "Jan Arambulo | Web developer",
     "layout_style": "overflow",
-    "palette": "blue",
+    "palette": "orange",
     "header": {
-        "title": "Stackbit Fresh",
-        "tagline": "Header Tagline",
-        "profile_img": "images/avatar.png",
+        "title": "Jan Arambulo",
+        "tagline": "",
+        "profile_img": "images/jan.jpg",
         "bg": "dark",
         "has_nav": true,
         "has_social": true

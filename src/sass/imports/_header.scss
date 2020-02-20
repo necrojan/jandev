@@ -61,10 +61,11 @@
 
 .site-title {
   color: _palette(secondary);
-  font-size: 1.11111rem;
+  font-size: 1rem;
   font-weight: bold;
   line-height: 1;
   margin: 0;
+  text-transform: uppercase;
 
   a {
     border: 0;
@@ -178,12 +179,12 @@
 }
 
 .site-header.dark {
-  background: _palette(secondary);
+  background: _palette(primary);
   border: 0;
   color: _palette(meta);
 
   .site-navigation {
-    background: _palette(secondary);
+    background: _palette(primary);
   }
 
   .site-title {
@@ -256,7 +257,7 @@
   }
 
   .site-title {
-    font-size: 1.33333rem;
+    font-size: 1rem;
     line-height: 1.2;
   }
 

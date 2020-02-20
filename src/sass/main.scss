@@ -1,13 +1,13 @@
 
 // Font.
 $font: (
-  primary: ("Roboto","Helvetica Neue",Helvetica,sans-serif)
+  primary: ("Proza Libre","Open Sans",Proza Libre,sans-serif)
 );
 
 // Palette.
 $palette: (
-  primary:       #555e69,
-  secondary:     darken(#555e69, 15%),
+  primary:       #292c3e,
+  secondary:     darken(#292c3e, 15%),
   meta:          lighten(#555e69, 25%),
   border:        lighten(#555e69, 55%),
   border-alt:    lighten(#555e69, 25%),
@@ -16,7 +16,7 @@ $palette: (
   accent-violet: #9371e6,
   accent-orange: #fc6e51
 );
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Proza+Libre&display=swap');
 @import "imports/functions";
 
 @import "fontawesome.min.css";
