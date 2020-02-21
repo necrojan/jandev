@@ -1,6 +1,20 @@
 {
     "title": "Jan Arambulo | Web developer",
+    "author":  "Jan Arambulo",
+    "siteUrl": "https://jandev.me/",
+    "description": "Blog by Jan, things that I learned in Web development and in Programming in general.",
     "layout_style": "overflow",
+    "keywords": [
+        "Jan",
+        "Arambulo",
+        "PHP",
+        "Ruby",
+        "Javascript",
+        "Web developer",
+        "Programmer",
+        "HTML",
+        "CSS"
+    ],
     "palette": "orange",
     "header": {
         "title": "Jan Arambulo",

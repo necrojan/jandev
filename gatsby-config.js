@@ -4,6 +4,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-source-data`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -41,6 +42,14 @@ module.exports = {
         sourceUrlPath: `fields.url`,
         pageContextProperty: `menus`,
         menus: require("./src/data/menus.json")
+      }
+    },
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: 'https://jandev.me/',
+        sitemap: 'https://jandev.me/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
       }
     }
   ]
