@@ -1,11 +1,13 @@
 ---
 title: Hello World
 date: 2020-02-22T16:00:00.000Z
-thumb_img_path: images/9.jpg
+thumb_img_path: /images/helloworld.jpg
 content_img_path: ''
 excerpt: Hello word!
 template: post
 ---
+Photo by[KOBU Agency](https://unsplash.com/@kobuagency?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[Unsplash](https://unsplash.com/s/photos/hello-world?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
 **Finally its Live!**. This is a very special day for me. I managed to launch my site live. I've been thinking about this since last year and wasn't able to get a chance to complete it. 
 
 I've tried doing it from ground up, but ended up not finishing it. I got bored and eventually lost the interest in using the stack that I used back then. 
