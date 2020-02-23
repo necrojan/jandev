@@ -47,9 +47,21 @@ module.exports = {
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: 'https://jandev.me/',
-        sitemap: 'https://jandev.me/sitemap.xml',
-        policy: [{ userAgent: '*', allow: '/' }]
+        host: "https://jandev.me/",
+        sitemap: "https://jandev.me/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }]
+      }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Jan Arambulo`,
+        short_name: `Jan`,
+        start_url: `/`,
+        background_color: `#000000`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+        icon: `src/images/icon.png`
       }
     }
   ]
