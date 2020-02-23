@@ -2,7 +2,7 @@
 title: Hello World
 date: 2020-02-22T16:00:00.000Z
 thumb_img_path: /images/helloworld.jpg
-content_img_path: ''
+content_img_path: /images/helloworld.jpg
 excerpt: Hello word!
 template: post
 ---
