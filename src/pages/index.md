@@ -4,8 +4,7 @@ sections:
   - type: heroblock
     section_id: hero
     component: HeroBlock
-    content: >-
-      Developer | Husband | Dad
+    content: Always making an effort in continue learning
   - type: contentblock
     title: About
     section_id: about
@@ -14,7 +13,8 @@ sections:
         url: /contact
     component: ContentBlock
     content: >-
-      A self taught developer from the Lion City of the South, Sta Rosa Laguna Philippines.
+      A self taught developer from the Lion City of the South, Sta Rosa Laguna
+      Philippines.
   - type: postsblock
     title: Recent Posts
     section_id: recent-posts
@@ -29,3 +29,4 @@ menus:
     weight: 1
 template: home
 ---
+
