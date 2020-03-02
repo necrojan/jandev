@@ -36,4 +36,15 @@ export default class Body extends React.Component {
             </React.Fragment>
         );
     }
+
+    async componentDidMount() {
+      try {
+        const deckdeckgoLoader =
+          require("@deckdeckgo/highlight-code/dist/loader");
+        
+        await deckdeckgoLoader.defineCustomElements(window);
+      } catch (err) {
+        console.error(err);
+      }
+    }
 }
