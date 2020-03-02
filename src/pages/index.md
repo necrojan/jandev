@@ -4,9 +4,7 @@ sections:
   - type: heroblock
     section_id: hero
     component: HeroBlock
-    content: |-
-      Developer | Husband | Dad
-      Always making an effort in continue learning
+    content: Always making an effort in continue learning
   - type: contentblock
     title: About
     section_id: about
