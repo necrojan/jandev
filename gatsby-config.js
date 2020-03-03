@@ -63,6 +63,20 @@ module.exports = {
         display: `standalone`,
         icon: `src/images/icon.png`
       }
+    },
+    {
+      resolve: `gatsby-remark-twitter-cards`,
+      options: {
+        title: "JanDev", // website title
+        separator: "|", // default
+        author: "jan arambulo",
+        background: "#000000", // path to 1200x630px file or hex code, defaults to black (#000000)
+        fontColor: "#228B22", // defaults to white (#ffffff)
+        titleFontSize: 96, // default
+        subtitleFontSize: 60, // default
+        fontStyle: "monospace", // default
+        fontFile: require.resolve("./static/assets/webfonts/fa-brands-400.ttf") // will override fontStyle - path to custom TTF font
+      }
     }
   ]
 };
