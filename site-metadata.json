@@ -1,9 +1,11 @@
 {
     "title": "Jan Arambulo | Web developer",
     "author":  "Jan Arambulo",
-    "siteUrl": "https://jandev.me/",
-    "description": "Blog by Jan, things that I learned in Web development and in Programming in general.",
+    "siteUrl": "https://jandev.me",
+    "description": "Things that I learned in Web development and in Programming in general.",
     "layout_style": "overflow",
+    "twitterUsername": "@jandev1125",
+    "image": "images/jan-baguio.jpg",
     "keywords": [
         "Jan",
         "Arambulo",
