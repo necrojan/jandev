@@ -37,6 +37,34 @@ export default class Body extends React.Component {
                   "pageContext.site.siteMetadata.twitterUsername"
                 )}
               />
+              <meta
+                property="og:title"
+                content={_.get(
+                  this.props,
+                  "pageContext.site.siteMetadata.title"
+                )}
+              />
+              <meta
+                property="og:description"
+                content={_.get(
+                  this.props,
+                  "pageContext.site.siteMetadata.description"
+                )}
+              />
+              <meta
+                name="twitter:title"
+                content={_.get(
+                  this.props,
+                  "pageContext.site.siteMetadata.title"
+                )}
+              />
+              <meta
+                name="twitter:description"
+                content={_.get(
+                  this.props,
+                  "pageContext.site.siteMetadata.description"
+                )}
+              />
               <link
                 href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i"
                 rel="stylesheet"
