@@ -4,6 +4,8 @@ date: 2020-03-06T12:43:01.081Z
 thumb_img_path: /images/restaurant.jpg
 template: post
 ---
+Photo by [Jay Wennington](https://unsplash.com/@jaywennington?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/restaurant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
 Developing mobile apps has been easy, thanks to the framework like Ionic which is a cross platform. Before, you need to learn languages like Objective-C or Swift for ios and Java or Kotlin for android. Now a web developer can simply develop a mobile application using Angular/Ionic.
 
 In this tutorial, we will develop a mobile app that looks for the nearest restaurant in a location. As most people love to eat, whether a place to dine with your loved ones or just to grab a quick snack. We will develop this app using Ionic framework. Without further ado, let’s get started.
@@ -14,8 +16,6 @@ First, let’s install the Ionic CLI via npm and we must install it globally. Ru
 
 Once it's done generating the folders and files, we need to cd into the project folder in our terminal type cd `ionic-zomato` then run the command, `ionic serve`. It will open localhost:8100 in our browser.
 
-
-
 ![ionic home](/images/screen-shot-2020-03-02-at-12.14.18-am.png "ionic home")
 
 ### Generate an API key
@@ -23,8 +23,6 @@ Once it's done generating the folders and files, we need to cd into the project 
 We will use Zomato to get data as their APIs will provide us with tons of restaurant information across multiple cities. Let’s go head to their website and register to [this](https://developers.zomato.com/). Once done, click to api credentials. We will get a basic type, which will give us 1000 calls/day.
 
 ![zomato api](/images/screen-shot-2020-03-02-at-12.16.46-am.png "zomato api")
-
-
 
 ### Creating a Zomato Service
 
@@ -154,7 +152,6 @@ Our application still uses the default display from the home page. So let’s tw
     </div>
   </div>
 </ion-content>
-
 ```
 
 As you can see, we just loop using the ngFor directive of Angular. The dinner property contains the response data from zomato, we use slice method to get only 6 items. Then get the image thumbnail of each restaurant along with its title and location address.
