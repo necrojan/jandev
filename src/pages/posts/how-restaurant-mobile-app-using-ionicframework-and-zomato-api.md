@@ -1,5 +1,5 @@
 ---
-title: How restaurant mobile app using Ionicframework and Zomato api
+title: Build restaurant mobile app using Ionicframework and Zomato api
 date: 2020-03-06T12:43:01.081Z
 thumb_img_path: /images/restaurant.jpg
 template: post
