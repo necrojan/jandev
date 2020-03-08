@@ -5,6 +5,7 @@ import HeroBlock from './HeroBlock';
 import PostsBlock from './PostsBlock';
 import Social from './Social';
 import Layout from './Layout';
+import Subscribe from './Subscribe';
 
 export {
     ContentBlock,
@@ -13,15 +14,17 @@ export {
     HeroBlock,
     PostsBlock,
     Social,
-    Layout
+    Layout,
+    Subscribe
 };
 
 export default {
-    ContentBlock,
-    Footer,
-    Header,
-    HeroBlock,
-    PostsBlock,
-    Social,
-    Layout
+  ContentBlock,
+  Footer,
+  Header,
+  HeroBlock,
+  PostsBlock,
+  Social,
+  Layout,
+  Subscribe
 };

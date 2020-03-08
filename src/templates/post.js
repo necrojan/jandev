@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 import moment from 'moment-strftime';
 
-import {Layout} from '../components/index';
+import {Layout, Subscribe} from '../components/index';
 import {htmlToReact, safePrefix} from '../utils';
 
 export default class Post extends React.Component {
@@ -26,6 +26,7 @@ export default class Post extends React.Component {
                 <div className="post-content">
                   {htmlToReact(_.get(this.props, 'pageContext.html'))}
                 </div>
+                <Subscribe />
                 <footer className="post-meta">
                   <time className="published"
                     dateTime={moment(_.get(this.props, 'pageContext.frontmatter.date')).strftime('%Y-%m-%d %H:%M')}>{moment(_.get(this.props, 'pageContext.frontmatter.date')).strftime('%A, %B %e, %Y')}</time>

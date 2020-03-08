@@ -5,6 +5,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-source-data`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -76,6 +77,12 @@ module.exports = {
         subtitleFontSize: 60, // default
         fontStyle: "monospace", // default
         fontFile: require.resolve("./static/assets/webfonts/fa-brands-400.ttf") // will override fontStyle - path to custom TTF font
+      }
+    },
+    {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint: "https://jandev.us19.list-manage.com/subscribe/post?u=ddbb7977abe0d92e6eed24037&amp;id=551781f5c6"
       }
     }
   ]
