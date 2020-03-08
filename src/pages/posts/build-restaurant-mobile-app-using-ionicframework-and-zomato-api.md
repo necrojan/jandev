@@ -6,7 +6,7 @@ content_img_path: /images/restaurant.jpg
 menus:
   main:
     title: ''
-    weight: ''
+    weight: -2
 template: post
 ---
 Photo by [Jay Wennington](https://unsplash.com/@jaywennington?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/restaurant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
