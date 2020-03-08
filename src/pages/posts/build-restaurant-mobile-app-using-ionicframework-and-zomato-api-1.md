@@ -1,6 +1,6 @@
 ---
 title: Build restaurant mobile app using Ionicframework and Zomato api
-date: 2020-03-06T12:43:01.081Z
+date: 2020-03-08T02:07:49.349Z
 thumb_img_path: /images/restaurant.jpg
 content_img_path: /images/restaurant.jpg
 template: post
@@ -17,13 +17,13 @@ First, let’s install the Ionic CLI via npm and we must install it globally. Ru
 
 Once it's done generating the folders and files, we need to cd into the project folder in our terminal type cd `ionic-zomato` then run the command, `ionic serve`. It will open localhost:8100 in our browser.
 
-![ionic home](/images/screen-shot-2020-03-02-at-12.14.18-am.png "ionic home")
+![](/images/screen-shot-2020-03-02-at-12.14.18-am.png "localhost")
 
 ### Generate an API key
 
 We will use Zomato to get data as their APIs will provide us with tons of restaurant information across multiple cities. Let’s go head to their website and register to [this](https://developers.zomato.com/). Once done, click to api credentials. We will get a basic type, which will give us 1000 calls/day.
 
-![zomato api](/images/screen-shot-2020-03-02-at-12.16.46-am.png "zomato api")
+![](/images/screen-shot-2020-03-02-at-12.16.46-am.png "zomato api key")
 
 ### Creating a Zomato Service
 
@@ -127,7 +127,7 @@ Last but not the least, make sure toinstall the ionic native geolocation <https:
 
 Our application still uses the default display from the home page. So let’s tweak the html file:
 
-```typescript
+```html
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
