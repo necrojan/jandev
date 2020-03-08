@@ -5,7 +5,7 @@ thumb_img_path: /images/restaurant.jpg
 content_img_path: /images/restaurant.jpg
 menus:
   main:
-    title: Build restaurant mobile app using Ionicframework and Zomato api
+    title: ''
     weight: 3
 template: post
 ---
