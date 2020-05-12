@@ -11,7 +11,7 @@ I started learning Ruby a couple of months ago, I admit I really like the langua
 
 That ability is called **Monkey Patch**.  
 
-I am having this exercise about monkey patching from a site that I enrolled with. And the description is to modify the Array class and implement a new method called  `my_rotate`. The idea is, the Array class should have that new method and given an index as it’s method argument  it should return a new array containing all the elements of the original array in a rotated order. If value is negative, it should rotate in the opposite direction.
+I am having this exercise about monkey patching from a site that I enrolled with. And the description is to modify the Array class and implement a new method called  `my_rotate`. The idea is, the Array class should have that new method and given a number as it’s method argument  it should return a new array containing all the elements of the original array in a rotated order. If value is negative, it should rotate in the opposite direction.
 
 ```
 names = ['jan', 'jamie', 'isabelle', 'dogie']
@@ -25,7 +25,7 @@ Here comes the ***take*** and ***drop*** methods to the rescue!
 
 ### Drop
 
-Looking into it’s documentation it says “*Drops first n elements from ary and returns the rest of the elements in an array.*“
+Looking into it’s documentation it says “*Drops first n elements from array and returns the rest of the elements in an array.*“
 
 ```
 a = [1, 2, 3, 4, 5, 0]
@@ -58,7 +58,7 @@ names = ['jan', 'jamie', 'isabelle', 'dogie']
 
 p names.my_rotate # ['jamie', 'isabelle', 'dogie', 'jan']
 
-p names.my_rotate # ['isabelle', 'dogie', 'jan', 'jamie']
+p names.my_rotate(2) # ['isabelle', 'dogie', 'jan', 'jamie']
 ```
 
 Done!
