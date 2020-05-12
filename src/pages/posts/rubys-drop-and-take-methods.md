@@ -47,11 +47,11 @@ a.take(3) # [1, 2, 3]
 
 ```
 class Array
-	def my_rotate(num = 1)
-		idx = num % length
-		
-		drop(idx) + take(idx)
-	end
+  def my_rotate(num = 1)
+    idx = num % length
+
+    drop(idx) + take(idx)
+  end
 end
 
 names = ['jan', 'jamie', 'isabelle', 'dogie']
