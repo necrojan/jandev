@@ -1,8 +1,12 @@
 ---
 title: Ruby's drop and take methods
 date: 2020-05-12T12:51:31.579Z
+thumb_img_path: /images/mayank-dhanawade-huf1vghhowi-unsplash.jpg
+content_img_path: /images/mayank-dhanawade-huf1vghhowi-unsplash.jpg
 template: post
 ---
+Photo by [Mayank Dhanawade](https://unsplash.com/@mayank_dhanawade?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[Unsplash](https://unsplash.com/s/photos/drop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
 I started learning Ruby a couple of months ago, I admit I really like the language. It has this ability to change any class methods and change how it works.
 
 That ability is called **Monkey Patch**.  
@@ -16,8 +20,6 @@ p names.my_rotate # ['jamie', 'isabelle', 'dogie', 'jan']
 
 p names.my_rotate # ['isabelle', 'dogie', 'jan', 'jamie']
 ```
-
-
 
 Here comes the ***take*** and ***drop*** methods to the rescue!
 
