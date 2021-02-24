@@ -1,39 +1,39 @@
 {
-    "title": "Jan Arambulo | Web developer",
-    "author":  "Jan Arambulo",
-    "siteUrl": "https://jandev.me",
-    "description": "Things that I learned in Web development and in Programming in general.",
-    "layout_style": "overflow",
-    "twitterUsername": "@jandev1125",
-    "image": "images/jan-baguio.jpg",
-    "keywords": [
-        "Jan",
-        "Arambulo",
-        "PHP",
-        "Ruby",
-        "Javascript",
-        "Web developer",
-        "Programmer",
-        "HTML",
-        "CSS"
-    ],
-    "palette": "orange",
-    "header": {
-        "title": "Jan Arambulo",
-        "tagline": "",
-        "profile_img": "images/jan.jpg",
-        "bg": "dark",
-        "has_nav": true,
-        "has_social": true
-    },
-    "footer": {
-        "content": "&copy; All rights reserved @2020",
-        "links": [
-            {
-                "text": "",
-                "url": "",
-                "new_window": true
-            }
-        ]
-    }
+  "siteUrl": "https://jandev.me",
+  "twitterUsername": "@jandev1125",
+  "keywords": [
+    "Jan",
+    "Arambulo",
+    "PHP",
+    "Ruby",
+    "Javascript",
+    "Web developer",
+    "Programmer",
+    "HTML",
+    "CSS"
+  ],
+  "author": "Jan Arambulo",
+  "header": {
+    "title": "Jan Arambulo",
+    "tagline": "",
+    "profile_img": "images/jan.jpg",
+    "bg": "dark",
+    "has_nav": true,
+    "has_social": true
+  },
+  "title": "Jan Arambulo | Web developer",
+  "image": "images/jan-baguio.jpg",
+  "footer": {
+    "content": "&copy; All rights reserved @2021",
+    "links": [
+      {
+        "text": "",
+        "url": "",
+        "new_window": true
+      }
+    ]
+  },
+  "palette": "orange",
+  "layout_style": "overflow",
+  "description": "Things that I learned in Web development and in Programming in general."
 }
