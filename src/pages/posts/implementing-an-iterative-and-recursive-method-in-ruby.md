@@ -1,10 +1,13 @@
 ---
 title: Implementing an iterative and recursive method in Ruby
 date: 2021-04-08T00:26:24.480Z
+thumb_img_path: /images/stop.jpg
 excerpt: Knowing how to implement an iterative and recursive approach is a good
   exercise to our brain.
 template: post
 ---
+Photo by [Indrajeet Choudhary](https://unsplash.com/@robin_indrajeet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/reversed?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
 Palindrome has always been used as an exercise in programming, and most likely students are  asked to create a method and implement an iterative and recursive approach.
 
 A Palindrome is a word, or phrase that can be read  forward and in reverse. e.q ‘racecar’ ‘madam’. https://en.wikipedia.org/wiki/Palindrome
@@ -57,7 +60,6 @@ puts palindrome_recursive('civic')
 # true
 puts palindrome_recursive('notachance')
 # puts false
-
 ```
 
 In making a recursive method we should always create a base case or also called an end goal. 
@@ -69,7 +71,6 @@ Then we check if the first and last letter of the string by indexing str\[0] and
 Mostly we can achieve a solution using the iterative approach but it’s also better to know on how to use and implement a recursive function.
 
 Here’s also a link about recursion in Ruby.
-
 
 https://www.rubyguides.com/2015/08/ruby-recursion-and-memoization/
 
