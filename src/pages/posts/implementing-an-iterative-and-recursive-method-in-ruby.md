@@ -1,12 +1,13 @@
 ---
 title: Implementing an iterative and recursive method in Ruby
 date: 2021-04-08T00:26:24.480Z
-thumb_img_path: /images/stop.jpg
+thumb_img_path: /images/city.jpg
+content_img_path: /images/city.jpg
 excerpt: Knowing how to implement an iterative and recursive approach is a good
   exercise to our brain.
 template: post
 ---
-Photo by [Indrajeet Choudhary](https://unsplash.com/@robin_indrajeet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/reversed?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+Photo by [jisoo kim](https://unsplash.com/@soologue?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/reverse?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 Palindrome has always been used as an exercise in programming, and most likely students are  asked to create a method and implement an iterative and recursive approach.
 
