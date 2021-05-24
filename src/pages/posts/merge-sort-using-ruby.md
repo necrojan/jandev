@@ -102,8 +102,6 @@ Then we verify if the first element of the left part is lower than the first ele
 
 Lastly, we check the remaining arrays by adding a condition that checks if the left or right arrays still contains elements, then we simply add it into the new array. Our last statement simply returns the newly sorted array.
 
-Here is the complete code and can be found in [Github](https://github.com/necrojan/recurssssion/blob/master/merge_sort.rb)
-
 ```ruby
 def merge_sort(arr)
   return arr if arr.size <= 1
@@ -130,3 +128,5 @@ p merge_sort([4, 1, 3, 2, 6, 3, 18, 2, 9, 7, 3, 1, 2.5, 77, -9])
 
 # [-9, 1, 1, 2, 2, 2.5, 3, 3, 3, 4, 6, 7, 9, 18, 77]
 ```
+
+Here is the complete code and can be found in [Github](https://github.com/necrojan/recurssssion/blob/master/merge_sort.rb)
