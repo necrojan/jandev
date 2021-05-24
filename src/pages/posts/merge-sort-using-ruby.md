@@ -46,7 +46,7 @@ def merge_sort(arr)
 end
 ```
 
-The next step is to use the recursion. We call our own method  `merge_sort. `We will hold the first half of our array and assign it to a variable called `left `And the other half would go to the variable called `right.`
+The next step is to use the recursion. We call our own method  `merge_sort.`We will hold the first half of our array and assign it to a variable called `left`And the other half would go to the variable called `right.`
 
 ```ruby
 arr[0...(arr.size/2)]
@@ -60,7 +60,7 @@ arr[0...(arr.size/2)]
 
 Given this snippet here, let’s say for example we have an array like this. `[4, 1, 3, 2, 6, 3, 18, 2, 9, 7, 3, 1, 2.5, -9]`
 
-That will return `[4, 1, 3, 2, 6, 3, 18]`  since it will be shown as `arr(0...7) `because `arr.size/2` is equals to 7. And using `...` means we’ll exclude the 7th index of the array so it’ll return the indices from `0 to 6` .The other half of the array applies the same concept. 
+That will return `[4, 1, 3, 2, 6, 3, 18]`  since it will be shown as `arr(0...7)`because `arr.size/2` is equals to 7. And using `...` means we’ll exclude the 7th index of the array so it’ll return the indices from `0 to 6` .The other half of the array applies the same concept. 
 
 ```ruby
 def merge_sort(arr)
@@ -107,4 +107,27 @@ p merge_sort([4, 1, 3, 2, 6, 3, 18, 2, 9, 7, 3, 1, 2.5, 77, -9])
 # [-9, 1, 1, 2, 2, 2.5, 3, 3, 3, 4, 6, 7, 9, 18, 77]
 ```
 
-Thanks!
+Here is the complete code and can be found in [Github](https://github.com/necrojan/recurssssion/blob/master/merge_sort.rb)
+
+```ruby
+def merge_sort(arr)
+  return arr if arr.size <= 1
+
+  left = merge_sort(arr[0...(arr.size/2)])
+  right = merge_sort(arr[arr.size/2..arr.size])
+	
+  merge(left, right)
+end
+
+def merge(left, right)
+  new_arr = []
+
+  new_arr << (left.first <= right.first ? left.shift : right.shift) while [left.size, right.size].min.positive?
+
+  left.each { |i| new_arr << i } if left.size.positive?
+
+  right.each { |i| new_arr << i } if right.size.positive?
+	
+  new_arr
+end
+```
