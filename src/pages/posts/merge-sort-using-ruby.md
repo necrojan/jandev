@@ -2,6 +2,7 @@
 title: Merge sort using Ruby
 date: 2021-05-24T00:23:02.813Z
 thumb_img_path: /images/sort.jpg
+content_img_path: /images/sort.jpg
 excerpt: In my last post, I have made an implementation of recursion in creating
   a  palindrome. And in this post we will still apply that same process of
   recursion and then using another fundamental operation called merging.
@@ -46,7 +47,7 @@ def merge_sort(arr)
 end
 ```
 
-The next step is to use the recursion. We call our own method  `merge_sort.`We will hold the first half of our array and assign it to a variable called `left`And the other half would go to the variable called `right.`
+The next step is to use the recursion. We call our own method  `merge_sort.`We will hold the first half of our array and assign it to a variable called `left` and the other half would go to the variable called `right.`
 
 ```ruby
 arr[0...(arr.size/2)]
@@ -101,12 +102,6 @@ Then we verify if the first element of the left part is lower than the first ele
 
 Lastly, we check the remaining arrays by adding a condition that checks if the left or right arrays still contains elements, then we simply add it into the new array. Our last statement simply returns the newly sorted array.
 
-```ruby
-p merge_sort([4, 1, 3, 2, 6, 3, 18, 2, 9, 7, 3, 1, 2.5, 77, -9])
-
-# [-9, 1, 1, 2, 2, 2.5, 3, 3, 3, 4, 6, 7, 9, 18, 77]
-```
-
 Here is the complete code and can be found in [Github](https://github.com/necrojan/recurssssion/blob/master/merge_sort.rb)
 
 ```ruby
@@ -130,4 +125,8 @@ def merge(left, right)
 	
   new_arr
 end
+  
+p merge_sort([4, 1, 3, 2, 6, 3, 18, 2, 9, 7, 3, 1, 2.5, 77, -9])
+
+# [-9, 1, 1, 2, 2, 2.5, 3, 3, 3, 4, 6, 7, 9, 18, 77]
 ```
